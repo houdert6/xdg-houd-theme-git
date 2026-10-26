@@ -27,6 +27,7 @@ depends=('xdg-desktop-portal')
 makedepends=('git' 'cargo')
 provides=('xdg-desktop-portal-impl')
 source=('git+https://github.com/houdert6/xdg-houd-theme.git')
+sha256sums=('SKIP')
 
 build() {
     cd 'xdg-houd-theme'
