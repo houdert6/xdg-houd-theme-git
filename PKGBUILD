@@ -36,8 +36,8 @@ build() {
 
 package() {
     cd 'xdg-houd-theme'
-    install -Dm755 'target/release/xdg-houd-theme' '$pkgdir/usr/lib/xdg-houd-theme'
-    install -Dm644 'configs/houdtheme.portal' '$pkgdir/usr/share/xdg-desktop-portal/portals/houdtheme.portal'
-    install -Dm644 'configs/xdg-desktop-portal-houdtheme.service' '$pkgdir/usr/lib/systemd/user/xdg-desktop-portal-houdtheme.service'
-    install -Dm644 'configs/org.freedesktop.impl.portal.desktop.houdtheme.service' '$pkgdir/usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.houdtheme.service'
+    install -Dm755 'target/release/xdg-houd-theme' "$pkgdir/usr/lib/xdg-houd-theme"
+    install -Dm644 'configs/houdtheme.portal' "$pkgdir/usr/share/xdg-desktop-portal/portals/houdtheme.portal"
+    install -Dm644 'configs/xdg-desktop-portal-houdtheme.service' "$pkgdir/usr/lib/systemd/user/xdg-desktop-portal-houdtheme.service"
+    install -Dm644 'configs/org.freedesktop.impl.portal.desktop.houdtheme.service' "$pkgdir/usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.houdtheme.service"
 }
