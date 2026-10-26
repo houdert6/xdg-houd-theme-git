@@ -24,7 +24,7 @@ arch=('x86_64')
 url='https://github.com/houdert6/xdg-houd-theme'
 license=('GPL-3.0-or-later')
 depends=('xdg-desktop-portal')
-makedepends=('git', 'cargo')
+makedepends=('git' 'cargo')
 provides=('xdg-desktop-portal-impl')
 source=('git+https://github.com/houdert6/xdg-houd-theme.git')
 
